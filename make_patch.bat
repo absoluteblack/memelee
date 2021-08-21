@@ -6,4 +6,3 @@ set /p cm=commit message :
 git add patch.xdelta
 git commit -sm "%cm%"
 git push
-sleep 100000
